@@ -34,19 +34,57 @@ License:MIT
 
 <!--hero section-->
 <header>
+    
     <img src="images.gif" alt="Profile image" width="300" height="300"/>
+    <head>
+        <style>
+            p.test{
+                width: 11cm;
+                border: 2px;
+                word-wrap: break-word;
+            }
+        </style>
+    </head>
     <h1>Hi, am Cynthia</h1>
     <p>
         A fullstack webdeveloper with over 10 years experience helping people 
         create a solution to their <em>marriage and relationship</em>through applications.
     </p>
+    
 </header>
 <!--main section-->
 <main>
     <article>
         <h2>Featured projects</h2>
+        <div class="container">
+        <form action="contactform.php">
+            <label for="Email">Email</label>
+            <input type="text"id="Email" name="Email"placeholder="Your Email...">
+
+            <label for="name">Name</label>
+            <input type="text"id="name" name="name"placeholder="Your name...">
+
+            <label for="Product">Product</label>
+            <select id="product"name="product">
+                <option value="web applications">web applications</option>
+                <option value="programming">programming</option>
+                <option value="coding">coding</option>
+            </select>
+
+            <label for="message">message</label>
+            <textarea id="message"name="message" style="height: 200px"></textarea>
+
+            <label for="">
+                <input type="checkbox"checked="checked"name="subscribe">subscribe to news and offers</label>
+            
+                <input type="submit"value="send message">
+
+
+            </form>
+        </div>
     </article>
     <article>Testimonials</article>
+
 </main>
 <!--footer section-->
 <footer>
