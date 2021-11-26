@@ -8,78 +8,143 @@ License:MIT
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/9ad9a54963.js"
-    crossorigin="anonymous"></script>
-    <title>Cynthia Atieno</title>
-</head>
-<body>
-    <!--navigation bar-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/main.css">
+    <script
+      src="https://kit.fontawesome.com/a3024622be.js"
+      crossoriginal="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Navigation bar-->
     <nav class="navbar">
-        <a href="index.html"class="nav-link">Cynthia Atieno</a>
-        <div class="navbar-collapse">
-            <a href="project.html"class="nav-link"><i class="fas fa-tasks"></i> project</a>
-            <a href="services.html"class="nav-link"><i class="fab fa-servicestack"></i> services</a>
-            <a href="blog.html"class="nav-link"><i class="fas fa-blog"></i> blog</a>
-            <a href="name.html"class="nav-link"><i class="fas fa-hand-paper"></i> name</a>
-            <a href="contacts.html"class="nav-link"><i class="far fa-id-card"></i>contacts</a>
-            <a href="resume.html"class="nav-link"><i class="fas fa-file"></i>  resume</a>
-
-</div>
+      <a href="index.html"class="nav-link"><i class="fab fa-angellist"></i>cynthia Atieno</a>
+      <div class="navbar-collapse">
+        <a href="" class="nav-link"><i class="fas fa-tasks"></i>Projects</a>
+      <a href="" class="nav-link"><i class="fab fa-usps"></i>Services</a>
+      <a href="" class="nav-link"><i class="fas fa-blog"></i>Blog</a>
+      <a href="" class="nav-link"><i class="fas fa-signature"></i>Name</a>
+      <a href="" class="nav-link"><i class="far fa-address-book"></i>Contact</a>
+      <a href="" class="nav-link"><i class="fas fa-file"></i>Resume</a>
+    </div>
     </nav>
-
-<!--hero section-->
-<header>
-    
-    <img src="images.gif" alt="Profile image" width="300" height="300"/>
-    <head>
-        <style>
-            p.test{
-                width: 11cm;
-                border: 2px;
-                word-wrap: break-word;
-            }
+      
+      
+    <!--Hero section-->
+    <header>
+      <div class="img">
+      <img
+        src="image.gif.jpg"
+        alt="profile image"
+        width="300"
+        length="600"
+      />
+      </div>
+      <head>
+        <style> 
+        p.test {
+          width: 11em; 
+          border: 2px ;
+          word-wrap: break-word;
+        }
         </style>
-    </head>
-    <h1>Hi, am Cynthia</h1>
-    <p>
-        A fullstack webdeveloper with over 10 years experience helping people 
-        create a solution to their <em>marriage and relationship</em>through applications.
-    </p>
-    
-</header>
-<!--main section-->
-<main>
-    <article>
-        <h2>Featured projects</h2>
-        </article>
-    <article>Testimonials</article>
+        </head>
+      <h1>Hi,am Cynthia Atieno</h1>
+      <p class="test">
+        A fullstack web developer with the upcoming skills of helping people
+        and organisations create solutions through web applications.I am really interested in developing
+         modern web applications that may help in future using HTML and CSS.
+        </p>
+        <button type="submit" class="btn">My Projects</button>
+        
+    </header>
+    <!--main section-->
+    <main>
+        
+          <h2>Featured projects</h2>
+          <p>
+              my project is about a noticebord sytem that can help students in different institutions to have updates about news or upcoming events
+          </p>
+          <form action="contact form">
+            <label for="email">Email*</label><br>
+            <input type="text" name="email"  size="50" placeholder="Your Email" required>
+            <br>
+            <br>
+            
+            <label for="name">Name*</label><br>
+            <input type="text" name="name" size="50" placeholder="Your Name" required>
+            <br>
+            <br>
+            
+            <label for="tel">Tel</label>
+            <input type="tel" name="Tel" size="3" placeholder="+254">
+            <input type="text" name="Tel" id="Tel" placeholder="7********">
+            <br>
+            <br>
 
-</main>
-<!--footer section-->
-<footer>
-    <ul>
-        <li>
-            <a href=""><i class="fab fa-github"></i></a>
-        </li>
-        <li>
-            <a href=""><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-            <a href=""><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-            <a href=""><i class="fab fa-instagram"></i><a/>
-        </li>
-        <li>
-            <a href=""><i class="fas fa-envelope-square"></i></a>
-        </li>
-    </ul>
-    2021.All rights are reserved @ trade;Cynthia Atieno
-</footer>
-</body>
+            <label for="Products">Preffered means:</label>
+            Tel:<input type="radio" name="Preffered means" value="Tel">
+            Email:<input type="radio" name="Preffered means" value="Email">
+            
+            <br>
+            <br>
+
+            <label for="Product">Product*</label>
+            <select name="Types of services" id="Services">
+                <option value="web application development">web application</option>
+                <option value="system integration">system integration</option>
+                <option value="software prototyping">Software prototyping</option>
+                <option value="network consulting">network consulting</option>
+                <option value="cloud computing">cloud computing</option>
+                <option value="basic software development">basic software development</option>
+                <option value="quality assurance">quality assurance</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Subject">Subject</label>
+            <input type="text" name="Subject" size="32">
+            <br>
+            <br>
+            
+            <label for="Message">Message*</label>
+            <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+
+            <label for="subscription">Subscribe to news and offers</label>
+            <input type="checkbox" name="">
+            <br>
+            <br>
+            
+            <label for="Send message"></label>
+            <input type="button" value="Send message">
+            <br>
+            <br>
+
+        </form>
+        
+      </main>
+    <!--Footer section-->
+    <footer>
+      <ul>
+        
+          <a href=""><i class="fab fa-github"></i></a>
+        
+          <a href=""><i class="fab fa-linkedin-in"></i></a>
+    
+          <a href=""><i class="fab fa-twitter"></i></a>
+
+          <a href=""><i class="fab fa-instagram"></i></a>
+
+          <a href=""><i class="fas fa-envelope-open-text"></i></a>
+
+      </ul>
+      © 2021 All rights reserved ™ CYNTHIA ATIENO
+    </footer>
+  </body>
 </html>
