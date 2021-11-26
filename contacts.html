@@ -11,110 +11,79 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/dd06602d3d.js" crossorigin="anonymous"></script>
-     <title>Cynthia Atieno</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/main.css">
-
-</head>
-<body>
-       <!--Navigation bar-->
-    <nav class="navbar">
-       <a href="home.html" class="nav-link"><i class="fas fa-home"></i>home</a><br>
-       <a href="project.html" class="nav-link"><i class="fas fa-tasks"></i>project</a><br>
-       <a href="services.html" class="nav-link"><i class="fab fa-servicestack"></i>services</a><br>
-       <a href="about.html" class="nav-link"><i class="fas fa-address-card"></i>about</a><br>
-       <a href="blog.html" class="nav-link"><i class="fas fa-blog"></i>blog</a><br>
-        <a href="contact.html" class="nav-link"><i class="fas fa-address-book"></i>contact</a>
-        <a href="resume.hmtl " class="nav-link"><i class="fas fa-file"></i>resume</a>
-    </nav> 
-    <!--jumbotron-->
-        <img src="images.gif" alt="no image"width="500" height="500">
-        <p>
-            in the past 2 years after attaining my bachelor in IT i have been helping company company's n create solution ithrough web aplications.am currently pursuing masters 
-            in IT
-        </p>
-    
- <!--main section-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <!--navigation bar section-->
+    <nav>
+      <a href="projects.html">Projects</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="">Resume</a>
+    </nav>
+    <!--hero section-->
+    <header>
+      <img
+        src="image.gif.jpg"
+        alt="about"
+        width="400"
+        height="400"
+      />
+      <h1>Drop me a line</h1>
+      <p>
+        Whether its a compliment, a service request, project or consultation you
+        can reach me by filling the form below
+      </p>
+    </header>
+    <!--MAIN PAGE CONTENT-->
     <main>
-        <form action="contact-form">
-
-            <label for="email">Email*</label><br>
-            <input type="text" name="email"  size="50" placeholder="Your Email" required>
-            <br>
-            <br>
-            
-            <label for="name">Name*</label><br>
-            <input type="text" name="name" size="50" placeholder="Your Name" required>
-            <br>
-            <br>
-            
-            <label for="tel">Tel</label>
-            <input type="tel" name="Tel" size="3" placeholder="+254">
-            <input type="text" name="Tel" id="Tel" placeholder="7********">
-            <br>
-            <br>
-
-            <label for="Products">Preffered means:</label>
-            Tel:<input type="radio" name="Preffered means" value="Tel">
-            Email:<input type="radio" name="Preffered means" value="Email">
-            
-            <br>
-            <br>
-
-            <label for="Product">Product*</label>
-            <select name="Types of services" id="Services">
-                <option value="web application development">web application</option>
-                <option value="system integration">system integration</option>
-                <option value="software prototyping">Software prototyping</option>
-                <option value="network consulting">network consulting</option>
-                <option value="cloud computing">cloud computing</option>
-                <option value="basic software development">basic software development</option>
-                <option value="quality assurance">quality assurance</option>
-            </select>
-            <br>
-            <br>
-
-            <label for="Subject">Subject</label>
-            <input type="text" name="Subject" size="32">
-            <br>
-            <br>
-            
-            <label for="Message">Message*</label>
-            <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
-            <br>
-            <br>
-
-            <label for="subscription">Subscribe to news and offers</label>
-            <input type="checkbox" name="">
-            <br>
-            <br>
-            
-            <label for="Send message"></label>
-            <input type="button" value="Send message">
-            <br>
-            <br>
-
-        </form>
+      <h2>Contact me</h2>
+      <form action="">
+        <div>
+          <label for="name">your name</label>
+          <input typr="text" id="name" size="20" />
+        </div>
+        <div>
+          <label for="subject">subject</label>
+          <input type="text" name="subject" id="subject" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" size="20" />
+        </div>
+        <div>
+          <label for="product">Product</label>
+          <select name="product" id="product">
+            <option value="web">Web application</option>
+            <option value="desktop">Desktop application</option>
+            <option value="mobile">Mobile application</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Your message</label>
+          <textarea name="" id="" cols="20" rows="5"></textarea>
+        </div>
+        <input type="submit" name="submit" id="submit" value="send"
+      </form>
     </main>
-       
-<!--footer section-->
-
+    <!--footer section-->
     <footer>
-    <h2>social media platforms</h2>
-       <a href="https://instagram.com"><i class="fab fa-instagram-square fa-2x" ></i></a>
-        <a href="https://www.Github.com"><i class="fab fa-github fa-2x"></i></a>
-       <a href="https://WWW.gmail.com"><i class="far fa-envelope fa-2x"></i></a>
-      <a href="https://www.linkin.com"><i class="fab fa-linkedin-in fa-2x"></i></a>
-       <a href="https://WWW.twitter.com"><i class="fab fa-twitter-square fa-2x"></i> </a>
-
-    <p>&copy;2021 allreseverd$trade;cynthia atieno</reserved1></p>
-
-       </footer>
-</body>
+      <ul>
+        <li><a href="">Github</a>/li></li>
+        <li><a href="">LinkedIn</a>/li></li>
+        <li><a href="">Twitter</a>/li></li>
+        <li><a href="">Instagram</a>/li></li>
+        <li><a href="mailto:">Email</a>/li></li>
+      </ul>
+    </footer>
+  </body>
 </html>
+
+    
